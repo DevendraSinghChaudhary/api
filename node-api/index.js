@@ -3,11 +3,6 @@ var express = require('express');
 var app = express();
 var request = require('request');
 
-client.setConfig({
-  apiKey: "3e358239f5d171d25f670125b79bf8a2-us12",
-  server: "us12",
-});
-
 
 var options = {
   'method': 'GET',
